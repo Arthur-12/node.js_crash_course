@@ -4,12 +4,12 @@
   "description": "node js crash course",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon http.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Arthur",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.7",
     "express": "^4.17.3",
     "lodash": "^4.17.21"
   }
